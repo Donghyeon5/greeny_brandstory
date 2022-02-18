@@ -1,0 +1,225 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: black;}
+body{font-family: 'NanumSquare'; line-height: 24px;}
+
+
+/*헤더*/
+header{height: 185px ; width: 100%; background-color: #eaf1e5; position: relative;}
+.small{position: absolute; top: 30px; right :250px;}
+.small li{float: left;  padding-left: 30px; opacity: 0.7; font-size: 14px;}
+.small li:hover{opacity: 1;}
+.logo{position: absolute; top: 30px; left: 50%; transform:translateX(-50%);}
+.nav{position: absolute; top: 120px; left: 50%;transform: translateX(-50%) ; width:1344.98px; z-index: 99;}
+.nav> li{float: left; font-size: 18px; font-weight:800; width: 20%; height: 64px; text-align: center;  padding: 20px 0px ; box-sizing: border-box;}
+.nav> li> a{padding-bottom: 21px; display: block;}
+.nav> li> a:hover{ color: #407c4e; font-weight: 800; opacity: 1.0;}
+
+.header_inner{width: 1320px; margin: auto;}
+.sub{ background: #9abd94 url(images/sub_bg.png) 100% 100% no-repeat; 
+  position: absolute;
+  width:100%;
+  left: 0;/*왼쪽 위치 값 0으로 만들어주기!*/
+  display: none;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+ 
+  
+}
+
+.sub div{
+    width: 1344.9px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    height: 170px;}
+.sub ul{
+    float: left;
+    width: 268.98px;/*메인메뉴의 너비랑 같게 맞춰주기!*/
+    text-align: center;}
+
+.sub ul li{height: 44px;}
+
+.sub ul a{
+      color: #fff;
+      display: block;
+      padding: 10px 0;
+  }
+
+  
+    .sub ul a:hover{
+      color: #407c4e;
+  }
+
+/* 브랜드스토리 */
+.wrap{width: 1320px; margin: 70px auto; height: 2500px;}
+.greeny{text-align: center; width: 1320px;padding: 30px 0px; background: url(images/line_1.png) 10px 160px no-repeat;}
+#corevalue{width: 1320px; margin: auto; height: 1000px; position: relative;}
+#corevalue h2{font-size: 45px; color: #407c4e;text-align: center; font-family: 'Shrikhand'; margin-top: 100px; letter-spacing:4px; }
+.joyful{position: absolute; top: 250px; left: 130px;}
+.fresh{position: absolute; top: 250px; left: 460px;}
+.together{position: absolute; top: 250px; left: 800px;}
+.joyful_1{position: absolute; top:715px ; left: 190px;}
+.fresh_1{position: absolute; top: 715px; left: 520px;}
+.together_1{position: absolute; top:715px; left: 860px;}
+
+#story{height: 1600px;}
+#story h2{font-size: 45px; color: #407c4e;text-align: center; font-family: 'Shrikhand'; margin-top: 200px; letter-spacing:4px;}
+/* 4x4배너 */
+.banner{
+  width: 1220px; 
+  margin: 200px auto; 
+  overflow: hidden;
+  position: relative;
+}
+.banner li{
+  float: left;
+  width: 600px;
+  height: 300px;
+  border-radius: 5px;
+  text-align: center;
+  background-size: cover;
+  background-clip: content-box;
+}
+.banner .line-right{
+  float: left;
+  width: 20px;
+  height: 300px;
+  background-color: #fff;
+}
+.banner .line-bottom{
+  float: left;
+  width: 100%;
+  height: 20px;
+  background-color: #fff;
+}
+.banner li:nth-child(1), .bg1{
+  background-image: url(images/bg1.jpg);
+}
+.banner li:nth-child(3), .bg2{
+  background-image: url(images/bg2222.jpg);
+}
+.banner li:nth-child(5), .bg3{
+  background-image: url(images/bg3333.jpg);
+}
+.banner li:nth-child(7), .bg4{
+  background-image: url(images/bg4444.jpg);
+}
+.bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-size: cover;
+  transform: scale(1.2);
+  transition: all 1s;
+  z-index: -1;
+}
+
+.banner li.on .bg{
+  transform: scale(1);
+  opacity: 0.8;
+} 
+.banner li.off{
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: initial;}
+
+
+.text p {color: #eaf1e5; font-weight: bold; font-size: 20px; line-height: 26px;}
+.icon{margin:  80px 0px 30px 0px;}
+
+.story_banner img{width: 100%; margin:auto} 
+
+/* BI */
+#bi{width: 1320px; margin: 100px auto; height: 2300px;}
+#bi h2{font-size: 45px; color: #407c4e;text-align: center; font-family: 'Shrikhand'; margin-top: 200px; letter-spacing:4px; }
+#bi h3{text-align: left; font-size: 30px; font-family: 'Shrikhand'; color: #407c4e; margin-top:200px; padding-bottom: 30px; background: url(images/line_4.png) no-repeat 0px 40px;}
+
+.color{width: 1320px; margin: auto; height: 800px; position: relative;}
+.color p{line-height: 40px;}
+.p1 {padding: 130px 0px 70px 20px; font-size: 20px;}
+.p2{padding-left: 20px; font-size: 20px;}
+.color2{position: absolute; top: 160px; right: 50px;}
+
+.brandlogo{width: 1320px; margin: auto; position: relative;}
+.logo1{position: absolute; top: 135px; left: 40px;}
+.logo2{position: absolute; top: 135px; left: 440px;}
+.logo3{position: absolute; top: 135px; left: 840px;}
+
+.text1{position: absolute; top:580px; left: 90px;}
+.text2{position: absolute; top:580px; left: 500px;}
+.text3{position: absolute; top:580px; left: 905px;}
+
+.arrow{position: absolute; top: 920px; left:50% ; transform: translateX(-50%);}
+
+.logo_fin{background-color: #f0f9ec; position: relative; width: 100%; height: 700px;}
+.logo4{position: absolute; top: 200px; left: 50%; transform: translateX(-50%);}
+.p_left{text-align: right; position: absolute; top: 200px; left: 450px; color: #14492e; font-size: 20px; line-height: 35px; font-weight: bold;}
+.p_right{text-align: left; position: absolute; top:430px; right: 370px; color: #14492e; font-size: 20px; line-height: 35px; font-weight: bold;}
+
+
+/* 매장찾기 */
+#store{width: 1320px; margin: auto; height: 1100px; position: relative;}
+#store h2{font-size: 45px; color: #407c4e;text-align: center; font-family: 'Shrikhand'; margin-top: 200px; letter-spacing:4px; }
+iframe{position: absolute; top: 230px; left: 50px; width: 650px; height: 650px;}
+.map1{position: absolute; top: 230px; right: 10px;}
+.button1{border: #448053 solid 1px; color: #448053; border-radius: 15px; 
+  position: absolute; top: 370px; right: 50px; padding: 5px 10px; background-color: #f5f9f6;}
+.button1:hover{background-color: #407c4e; color: #eaf1e5;}  
+
+.map2{position: absolute; top: 455px; right: 10px;}
+.button3{border: #448053 solid 1px; color: #448053; border-radius: 15px; 
+  position: absolute; top:595px; right: 50px; padding: 5px 10px; background-color: #f5f9f6;}
+.button3:hover{background-color: #407c4e; color: #eaf1e5;} 
+
+.map3{position: absolute; top: 680px; right: 10px;}
+.button2{border: #448053 solid 1px; color: #448053; border-radius: 15px; 
+  position: absolute; top: 820px; right: 50px; padding: 5px 10px; background-color: #f5f9f6;}
+.button2:hover{background-color: #407c4e; color: #eaf1e5;} 
+
+.search1{position: absolute; top: 75px; left: 50%; transform: translateX(-50%); }
+#search2{position: absolute; top: 102.5px; left: 355px; padding: 15px 10px; border: #eaf1e5 0px solid; border-radius: 15px; 
+background: url(images/find.png) no-repeat 775px center #fff; }
+
+
+
+
+/* 슬로건배너 */
+.slogun{width: 100%; margin: auto;}
+.slogun_inner img{width: 100%; display: block;}
+
+
+/* 푸터 */
+footer{width: 100%; height: 340px; background: #355235; }
+.footer_inner{margin: auto; width: 1320px; height: 340px; position: relative;}
+.w_logo{position:absolute;top: 30px;}
+
+.footer1{position: absolute; top:30px; right: 125px; }
+.footer1 li{float: left ; padding-left: 20px; opacity: 0.7;}
+.footer1 li:nth-child(1){background: url(images/insta.png) no-repeat 0px 10px  ; padding: 15px 20px 15px 40px;}
+.footer1 li:nth-child(2){background: url(images/kakao.png) no-repeat 0px 10px  ; padding: 15px 20px 15px 40px;}
+.footer1 li a{ color: #eaf1e5;  font-size: 18px;}
+.footer1 li:hover{opacity: 1; font-weight: bold;}
+
+
+.footer2{position: absolute; top: 200px;}
+.footer2 li{opacity: 0.7;}
+.footer2 li{float: left; }
+.footer2 li {color: #eaf1e5;}
+.footer2 li a{color: #eaf1e5; font-size: 17px; }
+.footer2 li:nth-child(2){padding: 0px 10px 0px 10px;}
+.footer2 li:nth-child(4){padding: 0px 10px 0px 10px;}
+.footer2 li:hover{opacity: 1; font-weight: bold;}
+
+.footer3{position: absolute ; top:245px; color: #eaf1e5; font-size: 17px;}
+
+
+.footer4{position: absolute; top: 150px; right: 150px;}
+.footer4 h3{color: #eaf1e5;font-size: 24px;}
+.cs{padding-top:20px;}
+.cs li {color: #eaf1e5; font-size: 17px;}
+.cs li:nth-child(3){padding-left:125px;}
+
+.copyright{width: 100%; height: 60px; background: #7aa47a;}
+.copyright p{text-align: center; color: #eaf1e5; font-size: 18px; padding-top: 21px;}
